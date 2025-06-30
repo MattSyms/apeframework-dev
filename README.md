@@ -1,18 +1,18 @@
 # Ape Framework development stack
 
-[Ape Framework](https://github.com/ApeFramework) development stack using [Docker Compose](https://docs.docker.com/compose).
+Ape Framework development stack using [Docker Compose](https://docs.docker.com/compose).
 
-| Service | Description   | Docker URL       | Local URL                               |
-| ------- | ------------- | ---------------- | --------------------------------------- |
-| Node.js | Dev container | `node:3000-3009` | [localhost:3000](http://localhost:3000) |
-
-## Development
+| Service | Docker URL  | Local URL                               |
+| ------- | ----------- | --------------------------------------- |
+| Node.js | `node:3000` | [localhost:3000](http://localhost:3000) |
 
 Deploy stack:
 
 ```
-docker compose up
+docker compose up -d
 ```
+
+## Development
 
 Get a Node.js container shell:
 
