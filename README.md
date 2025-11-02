@@ -1,10 +1,12 @@
 # Ape Framework development stack
 
-Ape Framework development stack using [Docker Compose](https://docs.docker.com/compose).
+Development stack for [Ape Framework](https://github.com/MattSyms/apeframework) using [Docker Compose](https://docs.docker.com/compose).
 
 | Service | Docker URL  | Local URL                               |
 | ------- | ----------- | --------------------------------------- |
 | Node.js | `node:3000` | [localhost:3000](http://localhost:3000) |
+
+## Stack management
 
 Deploy stack:
 
